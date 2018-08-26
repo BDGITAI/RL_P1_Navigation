@@ -16,10 +16,12 @@ About DQN agent :
 	At some point the agent pause its exploration and transform the experiences gathered in the short term
 	memory as long term memory.
 
-	This mechanism is similar to the human brain activity. Short term memories are stored in .....
-	and it is believed that some memories are reinforced and transferred in long term memory when 
+	This mechanism is similar to the human brain activity. Short term memories are stored in Hippocampus 
+        equivalent to Hippocampus where model is equivalent to neocortex.
+	It is believed that some memories are reinforced and transferred in long term memory when 
 	human beings go to sleep (pause from their exploration)
-
+	See  https://qbi.uq.edu.au/brain-basics/memory/where-are-memories-stored
+	
 Modifications:
 - Comments
 
