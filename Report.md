@@ -96,6 +96,11 @@ The next section describe my attempt with the implementation of prioritised repl
 
 ## 2. DQN and prioritised replay  
 
-This implementation impacts the memory structure and the construction of the minibatch.  Instead of having a standard buffer, each memory is now stored with its priority which is equal to the absolute value of the TD-error.
+This implementation impacts the memory structure and the construction of the minibatch. Instead of having a standard buffer, each memory is now stored with its priority which is equal to the absolute value of the TD-error.
+Report will be updated once the source will be further commented
 
+### Notes on 1_Prio_replay and 2_Pixel_DQN
 
+These two projects are not uploaded yet. 
+1_Prio_replay requires further documentation and investigation as the best obtained score is 11.
+2_Pixel_DQN is an evolution of the proposed DQN with a model update using convolutional neural network to analyse the visual scene. However implementation does not perform better than random yet.
