@@ -71,7 +71,7 @@ This project uses the Pytorch library and you will need to install it. Instructi
 For the project to run you will require the Windows version of the Banana runtime. This has been provided in the project folder and just need to be uncompressed in the same folder `./Banana_Windows_x86_64/`
 
 ---
-### Run the project  
+### 2. Run the project  
  
  #### Structure
 
