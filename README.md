@@ -24,7 +24,8 @@ A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is
   
 ##### Criteria for solving the environment  
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.  
-  
+
+---
 ### 1. Getting Started  
   
 #### Preamble  
@@ -61,6 +62,7 @@ This project uses the Pytorch library and you will need to install it. Instructi
 #### One last step
 For the project to run you will require the Windows version of the Banana runtime. This has been provided in the project folder and just need to be uncompressed in the same folder `./Banana_Windows_x86_64/`
 
+---
 ### Run the project  
  
  #### Structure
