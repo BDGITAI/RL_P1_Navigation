@@ -41,20 +41,28 @@ As suggested in the Unity walkthrough, it is recommended creating a new *conda* 
 * Download this project and decompress it in a local folder (e.g: p1_navigation)
 * Open the command windows (cmd) and select the project folder as your current directory (cd "path")
 * After executing the following steps from the procedure
+
  `conda env create -n p1_navigation`
  `activate p1_navigation`
  `pip install tensorflow==1.7.1`
+ 
  Install the git package to clone the ml-agent repository
+ 
  `conda install git`
+ 
 Clone the ml-agent git repository
+
  `git clone https://github.com/Unity-Technologies/ml-agents.git`
+ 
 * Go into the ml-agents python folder and perform the installation: 
+
  `cd ml-agents\python`  
  `pip install .`  
  
 #### Adding Pytorch
 This project uses the Pytorch library and you will need to install it. Instructions can be found [here](https://pytorch.org/)
  With your environment activated enter following commands:
+ 
 `conda install pytorch-cpu -c pytorch`
 `pip3 install torchvision`
 
@@ -75,7 +83,15 @@ For the project to run you will require the Windows version of the Banana runtim
 #### Execution
 
 To execute the project go to into the folder 
+
 `cd 0_Simple_DQN `
+
 And launch the jupyter notebook
+
 `jupyter notebook Navigation_DQN.ipynb`
 
+#### 1_Prio_replay and 2_Pixel_DQN
+
+These two projects are not uploaded yet. 
+1_Prio_replay requires further documentation and investigation as the best obtained score is 11.
+2_Pixel_DQN is an evolution of the proposed DQN with a model update using convolutional neural network to analyse the visual scene. However implementation does not perform better than random yet.
