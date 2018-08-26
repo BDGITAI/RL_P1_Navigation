@@ -43,7 +43,9 @@ As suggested in the Unity walkthrough, it is recommended creating a new *conda* 
 * After executing the following steps from the procedure
 
  `conda env create -n p1_navigation`
+ 
  `activate p1_navigation`
+ 
  `pip install tensorflow==1.7.1`
  
  Install the git package to clone the ml-agent repository
