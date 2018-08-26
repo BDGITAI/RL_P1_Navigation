@@ -27,6 +27,7 @@ The algorithm also implements two other concepts:
 * Fixed Q target
 
 *Experience replay* helps in removing the correlation between consecutive experiences. The reward obtained at a time step t could be linked to actions and states from the previous timestep. To prevent the algorithm from being induced in error, experiences are collected and stored in a memory. At a certain time step, the agent stops exploring a sample randomly its memory to learn.
+
 `self.t_step = (self.t_step + 1) % UPDATE_EVERY`
 `experiences = random.sample(self.memory, k=self.batch_size)`
 
@@ -62,7 +63,8 @@ Adam optimizer is chosen over SGD as it converges faster in early stages of trai
 
 ### Result
 The environment is considered solved when the agent is able to harvest an average of 13 bananas over 100 episodes. In order to ensure the agent would pass the test outside the training session, the target was fixed to an average of 14.
-The figure below shows that the Agent is able to reach an average score of at least 14 over 100 episodes in less than 600 episodes (here 554)![Agent learning curve with DQN _](./images/DQN_result.jpg)
+The figure below shows that the Agent is able to reach an average score of at least 14 over 100 episodes in less than 600 episodes (here 554)
+![Agent learning curve with DQN _](./images/DQN_result.jpg)
 
 Several attempts were made and the score of 14 is reached in average after 550 episodes
 
