@@ -8,7 +8,7 @@ The Agent will evolve in an environment built using [Unity](https://blogs.unity3
 #### The Environment  
   
 We train an agent to navigate (and collect bananas!) in a large, square world.  The agent's goal is to collect as many yellow bananas as possible while avoiding blue bananas.  
-  ![BananaWorld](URL)
+  ![BananaWorld](./images/banana_world.jpg)
 ##### Environment Observation space  
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around agent's forward direction. Given this information, the agent has to learn how to best select actions.  
   
